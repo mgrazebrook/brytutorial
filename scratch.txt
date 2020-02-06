@@ -1,0 +1,6 @@
+
+exec = html.INPUT(type='radio', name='mode', value='exec', checked="checked")
+eval = html.INPUT(type='radio', name='mode', value='eval')
+single = html.INPUT(type='radio', name='mode', value='single')
+document <= exec  + html.LABEL('Script')
+document <= single + html.LABEL('Expression')
